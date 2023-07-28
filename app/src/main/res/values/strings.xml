@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Download PDF</string>
+
+    <string name="button_download">Download</string>
+    <string name="button_ver_download">Ver download</string>
+    <string name="hint_editText">Url para download</string>
+</resources>
