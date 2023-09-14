@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
                 .setDescription("Downloading...")
                 .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
                 .setAllowedOverMetered(true)
+                .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "document.pdf")
 
             val dm = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
             dm.enqueue(request)
